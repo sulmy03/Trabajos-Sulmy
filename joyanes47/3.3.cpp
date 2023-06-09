@@ -22,6 +22,13 @@ int main(int argc, char *argv[]) {
         cout << "x = " << x << "y = " << y <<endl;
     } 
         
+if (x > 0) {
+            y = y * y;
+            cout << "y = " << y << endl;
+        } else {
+            cout << "ERROR" << endl;
+        }
+    }
 
     return 0;
 } // MODIFICAR EL EJERCICIO PARA EL CASO QUE SI EL RESULTADO DE "X" ES POSITIVO, EL RESULTADO DE "Y", DEBERA SER ELEVADO AL CUADRADO, CASO CONTRARIO VOTARA "ERROR"
