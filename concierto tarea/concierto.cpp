@@ -49,3 +49,16 @@ int main() {
 
     return 0;
 } // MODIFIQUE EL EJERCICIO PARA EL CASO QUE SI LA SUMA DE LAS ENTRADAS SUPERA LOS 400 SE LES DARA UN DESCUENTO DEL 20% EN LA SIGUIENTE FUNCION
+if (total > 400) {
+        float descuento = total * 0.2; // Calcular el descuento del 20%
+        total -= descuento; // Restar el descuento al total
+        cout << "Descuento aplicado: $" << descuento << endl;
+    }
+
+    if (ubicacion == 4) {
+        cout << "Bebida seleccionada: " << bebida << endl;
+    }
+
+    return 0;
+}
+
